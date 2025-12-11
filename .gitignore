@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# Environment and secrets
+.env
+
+# Debug logs and output files
+*.log
+azure_http_debug.log
+*_debug.json
+*_debug.txt
+
+# Generated data directories
+train_mltable/
+inference_mltable/
+
+# API check results and workspace info (may contain subscription IDs)
+monitor_api_check_results.json
+workspace_full.json
+activity_monitor_24h.json
+ml_provider.json
+tx_rf_model.json
+support_*
+
+# Editor
+.vscode/
+*.swp

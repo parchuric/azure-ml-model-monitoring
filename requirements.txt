@@ -1,0 +1,6 @@
+azure-ai-ml>=1.10.0
+azure-identity
+pandas
+scikit-learn
+joblib
+python-dotenv
